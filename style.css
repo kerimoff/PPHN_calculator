@@ -1,10 +1,18 @@
 body{
-    background-color: rgb(237, 250, 239) !important;
+    background-color: rgba(218, 206, 210, 0.767)!important;
 }
 
 .container{
-    margin: 10em auto;
-    background-color: rgb(209, 225, 209);
-    box-shadow: 6px 6px 5px 6px rgb(71, 107, 71);
+    margin: 5px auto;
+    background-color: rgb(207,214,173);
+    box-shadow: 6px 6px 5px 6px rgb(140, 153, 77);
     border-radius: 25px;
+}
+
+#drf_value{
+    margin-left: 15px;
+}
+
+.strong{
+    font-weight: bold;
 }
