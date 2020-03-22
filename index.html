@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPHN Calculator</title>
+</head>
+<body>
+    <form>
+        <label for="drf">DRF included:</label>
+        <input type="checkbox" id="drf" name="drf" checked><br>
+        <label for="drf_value">DRF value (between 0 and 60):</label>
+        <input type="number" id="drf_value" name="drf_value" min="0" max="60" value="0">
+        <br>
+        <br>
+        <label for="uti">UTI:</label>
+        <input type="checkbox" id="uti" name="uti"><br>
+        <label for="re_obst">Re-obstruction:</label>
+        <input type="checkbox" id="re_obst" name="re_obst"><br>
+
+        <p>result: <span id="result"> 0 </span> % </p>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
