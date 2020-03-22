@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(237, 250, 239) !important;
+}
+
+.container{
+    margin: 10em auto;
+    background-color: rgb(209, 225, 209);
+    box-shadow: 6px 6px 5px 6px rgb(71, 107, 71);
+    border-radius: 25px;
+}
