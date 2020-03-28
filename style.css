@@ -1,18 +1,26 @@
 body{
     background-color: rgba(218, 206, 210, 0.767)!important;
 }
-
-.container{
-    margin: 5px auto;
-    background-color: rgb(207,214,173);
-    box-shadow: 6px 6px 5px 6px rgb(140, 153, 77);
-    border-radius: 25px;
+h1{
+    text-align: center;
+}
+.wrapper{
+display: flex;
+justify-content: center;
 }
 
-#drf_value{
-    margin-left: 15px;
+
+.flex-container{
+    height: 200px;
+    flex-basis: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 20px ;
 }
 
-.strong{
-    font-weight: bold;
+p span{
+    padding: 10px;
 }
